@@ -72,8 +72,8 @@ function createBalls(x, y) {
 
       balls.vx = random(-3, 3);
       balls.vy = random(2, 5);
-      ball.xfriction = random(0.40, 0.8);
-      ball.yfriction = random(0.40, 0.8);
+      ball.xfriction = random(0.60, 0.8);
+      ball.yfriction = random(0.60, 0.8);
       if (ballArray.length <= ballsNumber) {
         ballArray.push(balls);
       } else {
